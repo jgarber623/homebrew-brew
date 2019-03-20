@@ -1,4 +1,4 @@
-class RbenvEnv < Formula
+class RbenvGemUpdate < Formula
   desc 'Automatically run `gem update --system` whenever you `rbenv install` a Ruby'
   homepage 'https://github.com/nicknovitski/rbenv-gem-update'
   url 'https://github.com/nicknovitski/rbenv-gem-update/archive/v1.0.0.tar.gz'
