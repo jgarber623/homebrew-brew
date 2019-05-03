@@ -6,10 +6,10 @@ cask 'font-three' do
   name 'Three'
   homepage 'https://pivle.com/three/'
 
-  font 'Three-Typeface/Three Black.otf'
-  font 'Three-Typeface/Three Bold.otf'
-  font 'Three-Typeface/Three Light.otf'
-  font 'Three-Typeface/Three Regular.otf'
+  font 'Three Black.otf'
+  font 'Three Bold.otf'
+  font 'Three Light.otf'
+  font 'Three Regular.otf'
 
   caveats <<~EOS
   For personal use only! No commercial use even under modification. For
