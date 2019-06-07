@@ -1,9 +1,9 @@
-cask 'font-san-francisco-compact' do
+cask 'font-sf-compact' do
   version :latest
   sha256 :no_check
 
   url 'https://developer.apple.com/design/downloads/SF-Font-Compact.dmg'
-  name 'San Francisco Compact'
+  name 'SF Compact'
   homepage 'https://developer.apple.com/fonts/'
 
   font 'San Francisco Compact/SF-Compact-Display-Black.otf'

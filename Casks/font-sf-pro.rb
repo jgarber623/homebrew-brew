@@ -1,9 +1,9 @@
-cask 'font-san-francisco-pro' do
+cask 'font-sf-pro' do
   version :latest
   sha256 :no_check
 
   url 'https://developer.apple.com/design/downloads/SF-Font-Pro.dmg'
-  name 'San Francisco Pro'
+  name 'SF Pro'
   homepage 'https://developer.apple.com/fonts/'
 
   font 'San Francisco Pro/SF-Pro-Display-Black.otf'
