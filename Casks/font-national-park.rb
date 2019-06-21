@@ -9,7 +9,7 @@ cask 'font-national-park' do
   font 'NationalPark-Heavy.otf'
   font 'NationalPark-Outline.otf'
   font 'NationalPark-Regular.otf'
-  font 'NationalPark-Thing.otf'
+  font 'NationalPark-Thin.otf'
 
   caveats <<~EOS
     The National Park typeface is free under the SIL Open Font License:
