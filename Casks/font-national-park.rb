@@ -6,10 +6,10 @@ cask 'font-national-park' do
   name 'National Park'
   homepage 'https://nationalparktypeface.com'
 
-  font 'NationalPark-Heavy.otf'
-  font 'NationalPark-Outline.otf'
-  font 'NationalPark-Regular.otf'
-  font 'NationalPark-Thing.otf'
+  font 'NationalPark/NationalPark-Heavy.otf'
+  font 'NationalPark/NationalPark-Outline.otf'
+  font 'NationalPark/NationalPark-Regular.otf'
+  font 'NationalPark/NationalPark-Thing.otf'
 
   caveats <<~EOS
     The National Park typeface is free under the SIL Open Font License:
