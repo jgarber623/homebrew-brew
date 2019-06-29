@@ -53,7 +53,7 @@ cask 'font-sf-pro' do
   font 'San Francisco Pro/SF-Pro-Text-UltralightItalic.otf'
 
   caveats <<~EOS
-    The Apple Sn Francisco font is to be used solely for creating mock-ups
+    The Apple San Francisco font is to be used solely for creating mock-ups
     of user interfaces to be used in software products running on Apple's iOS,
     macOS, or tvOS operating systems, as applicable.
     EOS
