@@ -1,63 +1,70 @@
 cask 'font-new-york' do
   version :latest
-  sha256 :no_check
+  sha256 'dcc232413268792916d5e1f58d9f3a17badd2716cfa1dc5bd7d840941323e96d'
 
   url 'https://developer.apple.com/design/downloads/NY-Font.dmg'
   name 'New York'
   homepage 'https://developer.apple.com/fonts/'
 
-  font 'New York/NewYorkExtraLarge-Black.otf'
-  font 'New York/NewYorkExtraLarge-BlackItalic.otf'
-  font 'New York/NewYorkExtraLarge-Bold.otf'
-  font 'New York/NewYorkExtraLarge-BoldItalic.otf'
-  font 'New York/NewYorkExtraLarge-Heavy.otf'
-  font 'New York/NewYorkExtraLarge-HeavyItalic.otf'
-  font 'New York/NewYorkExtraLarge-Medium.otf'
-  font 'New York/NewYorkExtraLarge-MediumItalic.otf'
-  font 'New York/NewYorkExtraLarge-Regular.otf'
-  font 'New York/NewYorkExtraLarge-RegularItalic.otf'
-  font 'New York/NewYorkExtraLarge-Semibold.otf'
-  font 'New York/NewYorkExtraLarge-SemiboldItalic.otf'
-  font 'New York/NewYorkLarge-Black.otf'
-  font 'New York/NewYorkLarge-BlackItalic.otf'
-  font 'New York/NewYorkLarge-Bold.otf'
-  font 'New York/NewYorkLarge-BoldItalic.otf'
-  font 'New York/NewYorkLarge-Heavy.otf'
-  font 'New York/NewYorkLarge-HeavyItalic.otf'
-  font 'New York/NewYorkLarge-Medium.otf'
-  font 'New York/NewYorkLarge-MediumItalic.otf'
-  font 'New York/NewYorkLarge-Regular.otf'
-  font 'New York/NewYorkLarge-RegularItalic.otf'
-  font 'New York/NewYorkLarge-Semibold.otf'
-  font 'New York/NewYorkLarge-SemiboldItalic.otf'
-  font 'New York/NewYorkMedium-Black.otf'
-  font 'New York/NewYorkMedium-BlackItalic.otf'
-  font 'New York/NewYorkMedium-Bold.otf'
-  font 'New York/NewYorkMedium-BoldItalic.otf'
-  font 'New York/NewYorkMedium-Heavy.otf'
-  font 'New York/NewYorkMedium-HeavyItalic.otf'
-  font 'New York/NewYorkMedium-Medium.otf'
-  font 'New York/NewYorkMedium-MediumItalic.otf'
-  font 'New York/NewYorkMedium-Regular.otf'
-  font 'New York/NewYorkMedium-RegularItalic.otf'
-  font 'New York/NewYorkMedium-Semibold.otf'
-  font 'New York/NewYorkMedium-SemiboldItalic.otf'
-  font 'New York/NewYorkSmall-Black.otf'
-  font 'New York/NewYorkSmall-BlackItalic.otf'
-  font 'New York/NewYorkSmall-Bold.otf'
-  font 'New York/NewYorkSmall-BoldItalic.otf'
-  font 'New York/NewYorkSmall-Heavy.otf'
-  font 'New York/NewYorkSmall-HeavyItalic.otf'
-  font 'New York/NewYorkSmall-Medium.otf'
-  font 'New York/NewYorkSmall-MediumItalic.otf'
-  font 'New York/NewYorkSmall-Regular.otf'
-  font 'New York/NewYorkSmall-RegularItalic.otf'
-  font 'New York/NewYorkSmall-Semibold.otf'
-  font 'New York/NewYorkSmall-SemiboldItalic.otf'
+  installer script: '/usr/sbin/installer', args: [
+    '-pkg', "#{staged_path}/NY Fonts.pkg",
+    '-target', 'CurrentUserHomeDirectory'
+  ]
 
-  caveats <<~EOS
+  uninstall trash: [
+    '~/Library/Fonts/NewYorkExtraLarge-Black.otf',
+    '~/Library/Fonts/NewYorkExtraLarge-BlackItalic.otf',
+    '~/Library/Fonts/NewYorkExtraLarge-Bold.otf',
+    '~/Library/Fonts/NewYorkExtraLarge-BoldItalic.otf',
+    '~/Library/Fonts/NewYorkExtraLarge-Heavy.otf',
+    '~/Library/Fonts/NewYorkExtraLarge-HeavyItalic.otf',
+    '~/Library/Fonts/NewYorkExtraLarge-Medium.otf',
+    '~/Library/Fonts/NewYorkExtraLarge-MediumItalic.otf',
+    '~/Library/Fonts/NewYorkExtraLarge-Regular.otf',
+    '~/Library/Fonts/NewYorkExtraLarge-RegularItalic.otf',
+    '~/Library/Fonts/NewYorkExtraLarge-Semibold.otf',
+    '~/Library/Fonts/NewYorkExtraLarge-SemiboldItalic.otf',
+    '~/Library/Fonts/NewYorkLarge-Black.otf',
+    '~/Library/Fonts/NewYorkLarge-BlackItalic.otf',
+    '~/Library/Fonts/NewYorkLarge-Bold.otf',
+    '~/Library/Fonts/NewYorkLarge-BoldItalic.otf',
+    '~/Library/Fonts/NewYorkLarge-Heavy.otf',
+    '~/Library/Fonts/NewYorkLarge-HeavyItalic.otf',
+    '~/Library/Fonts/NewYorkLarge-Medium.otf',
+    '~/Library/Fonts/NewYorkLarge-MediumItalic.otf',
+    '~/Library/Fonts/NewYorkLarge-Regular.otf',
+    '~/Library/Fonts/NewYorkLarge-RegularItalic.otf',
+    '~/Library/Fonts/NewYorkLarge-Semibold.otf',
+    '~/Library/Fonts/NewYorkLarge-SemiboldItalic.otf',
+    '~/Library/Fonts/NewYorkMedium-Black.otf',
+    '~/Library/Fonts/NewYorkMedium-BlackItalic.otf',
+    '~/Library/Fonts/NewYorkMedium-Bold.otf',
+    '~/Library/Fonts/NewYorkMedium-BoldItalic.otf',
+    '~/Library/Fonts/NewYorkMedium-Heavy.otf',
+    '~/Library/Fonts/NewYorkMedium-HeavyItalic.otf',
+    '~/Library/Fonts/NewYorkMedium-Medium.otf',
+    '~/Library/Fonts/NewYorkMedium-MediumItalic.otf',
+    '~/Library/Fonts/NewYorkMedium-Regular.otf',
+    '~/Library/Fonts/NewYorkMedium-RegularItalic.otf',
+    '~/Library/Fonts/NewYorkMedium-Semibold.otf',
+    '~/Library/Fonts/NewYorkMedium-SemiboldItalic.otf',
+    '~/Library/Fonts/NewYorkSmall-Black.otf',
+    '~/Library/Fonts/NewYorkSmall-BlackItalic.otf',
+    '~/Library/Fonts/NewYorkSmall-Bold.otf',
+    '~/Library/Fonts/NewYorkSmall-BoldItalic.otf',
+    '~/Library/Fonts/NewYorkSmall-Heavy.otf',
+    '~/Library/Fonts/NewYorkSmall-HeavyItalic.otf',
+    '~/Library/Fonts/NewYorkSmall-Medium.otf',
+    '~/Library/Fonts/NewYorkSmall-MediumItalic.otf',
+    '~/Library/Fonts/NewYorkSmall-Regular.otf',
+    '~/Library/Fonts/NewYorkSmall-RegularItalic.otf',
+    '~/Library/Fonts/NewYorkSmall-Semibold.otf',
+    '~/Library/Fonts/NewYorkSmall-SemiboldItalic.otf',
+  ]
+
+caveats <<~EOS
     The Apple New York font is to be used solely for creating mock-ups of
     user interfaces to be used in software products running on Apple's iOS,
-    macOS, TvOS, or watchOS operating systems, as applicable.
+    iPadOS, macOS, tvOS, or watchOS operating systems, as applicable.
     EOS
 end
