@@ -1,6 +1,6 @@
 cask 'font-sf-pro' do
   version :latest
-  sha256 'e9f871184d5165e26cfba8559adb47238a68bbeab10907cba8878a71c9900d82'
+  sha256 '90ba507413019df033a7bb31fa569e723018d53851ef0ce19c896c790d89fdfc'
 
   url 'https://developer.apple.com/design/downloads/SF-Font-Pro.dmg'
   name 'SF Pro'

@@ -1,6 +1,6 @@
 cask 'font-sf-compact' do
   version :latest
-  sha256 'c350ce36dd2f6d75cf1d460b8a599370c16019cd090cbc2d1841451b3f27a74f'
+  sha256 'ca504bca46ae6ad3fba6ccc1fa6e745c248e8cad1f837f8c50ead45c8959b081'
 
   url 'https://developer.apple.com/design/downloads/SF-Font-Compact.dmg'
   name 'SF Compact'
