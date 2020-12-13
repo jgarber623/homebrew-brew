@@ -1,6 +1,6 @@
 cask 'font-jost' do
-  version '3.3'
-  sha256 'f3156f3206362223b670edaa2547b1424ee9eaadc61a3dbc06dccc46f7a686ef'
+  version '3.4'
+  sha256 'e0008810945b5073a72d98daea24227474101e60f459bb1c08e6c63bcf5337ba'
 
   url "https://github.com/indestructible-type/Jost/releases/download/#{version}/Jost.zip"
   appcast 'https://github.com/indestructible-type/Jost/releases.atom'
