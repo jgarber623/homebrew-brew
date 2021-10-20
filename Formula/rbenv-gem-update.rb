@@ -4,8 +4,6 @@ class RbenvGemUpdate < Formula
   url 'https://github.com/nicknovitski/rbenv-gem-update/archive/v1.0.0.tar.gz'
   sha256 'b80d4334aa9cf7bbafe17a829deec66f44951d3a7f5df38486becc09a38e4363'
 
-  bottle :unneeded
-
   depends_on 'rbenv'
 
   def install
