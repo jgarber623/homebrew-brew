@@ -1,9 +1,9 @@
-# homebrew-extras
+# jgarber623/homebrew-extras
 
 ## Usage
 
 ```sh
-brew tap jgarber623/homebrew-extras
+brew tap jgarber623/extras
 ```
 
 ## License
