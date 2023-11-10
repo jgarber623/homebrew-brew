@@ -3,7 +3,7 @@
 ## Usage
 
 ```sh
-brew tap jgarber623/extras
+brew tap jgarber623/brew
 ```
 
 ## License
