@@ -1,4 +1,4 @@
-# jgarber623/homebrew-extras
+# jgarber623/homebrew-brew
 
 ## Usage
 
@@ -8,4 +8,4 @@ brew tap jgarber623/extras
 
 ## License
 
-Like Homebrew, homebrew-extras is licensed under the [2-Clause BSD License](https://opensource.org/licenses/BSD-2-Clause).
+Like Homebrew, homebrew-brew is licensed under the [2-Clause BSD License](https://opensource.org/licenses/BSD-2-Clause).
