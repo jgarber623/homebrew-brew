@@ -13,6 +13,6 @@ cask "font-techna-sans" do
     Copyright (c) 2019, Carl Enlund
 
     This Font Software is licensed under the SIL Open Font License, Version 1.1.
-    This license is available with a FAQ at: http://scripts.sil.org/OFL
+    This license is available with a FAQ at: https://scripts.sil.org/OFL
   EOS
 end
