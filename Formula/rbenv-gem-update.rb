@@ -5,6 +5,8 @@ class RbenvGemUpdate < Formula
   sha256 "b80d4334aa9cf7bbafe17a829deec66f44951d3a7f5df38486becc09a38e4363"
   license "MIT"
 
+  head "https://github.com/nicknovitski/rbenv-gem-update.git"
+
   depends_on "rbenv"
 
   def install
