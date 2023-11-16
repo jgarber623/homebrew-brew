@@ -5,7 +5,7 @@ class RbenvEach < Formula
   sha256 "f022f7384d291eb85cd5d9adf792b2c387a9304f24b123cd9d264ac212f6c253"
   license "CC0-1.0"
 
-  head "https://github.com/rbenv/rbenv-each.git"
+  head "https://github.com/rbenv/rbenv-each.git", branch: "master"
 
   depends_on "rbenv"
 
